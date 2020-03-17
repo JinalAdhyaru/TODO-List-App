@@ -1,0 +1,137 @@
+body {
+    background: url("background7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 350%;
+    font-family: 'Bellota', cursive;
+    text-align: center;
+}
+
+
+.container-fluid {
+    margin-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    padding: 0.8em;
+    font-size: 18px;
+  }
+ 
+  #p2 {
+      margin-top: 20px;
+      padding: 0em;
+      font-weight: bold;
+      text-decoration: underline;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+ #p1 {
+     margin-left: 500px;
+ }
+
+  @keyframes example1 {
+    0% {opacity: 0;}
+    50%{opacity: 0;}
+    60%{opacity: 0.5;}
+    70%{opacity: 1;}
+    80%{opacity: 1;}
+    90%{opacity: 1;}
+   100% {opacity: 1;}
+  }
+
+.animate {
+    animation-name: example1;
+    animation-duration: 30s;
+    animation-delay: -10s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 1, 1.275);
+}  
+
+@keyframes example {
+    0%   {opacity: 0%;font-size: small;}
+    25%  {opacity: 25%; font-size: medium;}
+    50%  {opacity: 50%;font-size: medium;transform: rotate(0.5turn);}
+    100% {opacity: 100%;font-size: large;}
+  }
+
+h1 {   
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.btn {
+    margin: 20px 5px;
+    display: inline-block;
+}
+
+#add:hover {background-color: #3e8e41}
+
+#add:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border-style: none;
+    height: 15px;
+    width: 15px;
+    font-size: small;
+}
+
+#userinput {
+    width: 350px;
+    height: 35px;
+    background-color: white;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#add {
+    background-color: forestgreen;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+select {
+    padding: 0em;
+    margin: 1em;
+}
+
+li {
+    font-size: large;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
