@@ -1,9 +1,8 @@
 body {
-    background: url("background7.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 350%;
-    font-family: 'Bellota', cursive;
+    background-color: #F7FFF7;
+    font-family: 'Piazzolla', serif;
     text-align: center;
+
 }
 
 
@@ -13,7 +12,8 @@ body {
 
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
+    background-color: #4ECDC4;
+    overflow: hidden;
   }
   
   .flex-container > div {
@@ -25,11 +25,13 @@ body {
       margin-top: 20px;
       padding: 0em;
       font-weight: bold;
-      text-decoration: underline;
-      font-family: Arial, Helvetica, sans-serif;
+     
   }
  #p1 {
      margin-left: 500px;
+ }
+ #p3{
+     padding-left: 10px;
  }
 
   @keyframes example1 {
@@ -83,10 +85,10 @@ input[type=text]{
     display: inline-block;
 }
 
-#add:hover {background-color: #3e8e41}
+#add:hover {background-color: #70C1B3;}
 
 #add:active {
-  background-color: #3e8e41;
+  background-color: #32213A;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -109,7 +111,7 @@ input[type=text]{
 }
 
 #add {
-    background-color: forestgreen;
+    background-color: #32213A;
     color: white;
     border-style: none;
     border-radius: 3px;
