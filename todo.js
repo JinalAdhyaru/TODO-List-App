@@ -3,7 +3,7 @@ var dayy = today.getDay();
 var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
 var day = daylist[dayy];      
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-document.getElementById("p3").innerHTML=day+' ,'+date;
+document.getElementById("p3").innerHTML="<b>" + day+', '+date+ "</b>";
 
 function startTime() {
     var today = new Date();
@@ -12,7 +12,7 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('p1').innerHTML = h + ":" + m + ":" + s;
+    document.getElementById('p1').innerHTML = "<b>"+h + ":" + m + ":" + s+"</b>";
     var t = setTimeout(startTime, 500);
 }
 
